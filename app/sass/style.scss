@@ -1,7 +1,9 @@
 @import '_fonts.scss';
 @import 'core/_base.scss';
 @import 'layouts/_header.scss';
-@import 'layouts/_posts.scss';
+@import 'components/_header_navbar.scss';
+@import 'components/_header_slider.scss';
+@import 'components/_blogs.scss';
 @import 'components/_post.scss';
 @import 'components/_sidebar.scss';
 @import 'layouts/_footer.scss';

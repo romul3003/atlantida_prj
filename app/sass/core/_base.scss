@@ -101,3 +101,11 @@ ul, ol {
   opacity: .2;
   transition: 0s
 }
+
+.posts, .blogs {
+	margin-bottom: 5%;
+
+	@media (min-width: 768px) {
+		width: 100%;
+	}
+}

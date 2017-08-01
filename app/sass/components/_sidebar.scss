@@ -1,0 +1,148 @@
+.sidebar {
+	.form-group {
+		position: relative;
+		// margin-bottom: 0;
+	}
+
+	.sidebar__search {
+		height: 39px;
+		border: 2px solid #a8a8a8;
+		background: transparent; 
+		outline: none; /* Убираем свечение в Chrome и Safari */
+		 -webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
+		
+		&:focus {
+			border-color: #66afe9;
+			box-shadow: none;
+		}
+	}
+
+	.sidebar_form__submit_btn {
+		position: absolute;
+		top: 2px;
+		right: 2px;
+		width: 39px;
+		height: calc(100% - 4px);
+		border-width: 0;
+		background: transparent;
+		&:focus {
+			outline: none;
+		}
+
+		&:hover {
+			background: #ccc;
+		}
+	}
+
+	.title, .sidebar__title {
+		a {
+			color: inherit;
+		}
+	}
+	
+	.title {
+		margin-top: 25px;
+		margin-bottom: 30px;
+	}
+
+	.sidebar__title {
+		margin-top: 0;
+	}
+
+	.sidebar__latest_posts,
+	.sidebar__categories,
+	.sidebar__archives,
+	.flickr_photos {
+		margin-bottom: 55px;
+	}
+	
+	.latest_posts__item {
+		margin-top: 25px;
+		padding-bottom: 15px;
+		border-bottom: 1px solid #b7b7b7;
+
+		@media screen and (min-width: 768px) {
+			padding-bottom: 25px;
+		}
+	}
+
+	.thumbnail {
+		max-width: 113px;
+		padding: 0;
+		margin-bottom: 0;
+		border-width: 0;
+
+		@media screen and (min-width: 768px) {
+			width: 100%;
+			max-width: 113px;
+		}
+	}
+	 
+	.sidebar__paragraph {
+		a {
+			color: inherit;
+		}
+	}
+
+	.categories_item__submenu,
+	.archives_item__submenu {
+	display: none;
+	}
+
+	.categories_item,
+	.archives_item {
+		margin-top: 10px;
+		border-bottom: 1px solid #b7b7b7;
+
+		.sidebar__categories__title,
+		.sidebar__archives__title {
+			margin-left: 8px;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			color: #3e3d3d;
+			transition: 0.3s;
+			position: relative;
+
+			&:hover {
+				color: #000;
+			}
+		}
+	}
+
+	.arrow_left {
+		&::before {
+				content: "\23F5 ";
+				font-style: normal;
+				position: absolute;
+				left: -16px;
+				top: -2px;
+		} 
+	}
+
+	.arrow_down {
+		&::before {
+				content: "\23F7 ";
+				font-style: normal;
+				position: absolute;
+				left: -16px;
+				top: -2px;
+		} 
+	}
+
+
+
+	.btn_slide {
+		display: block;
+	}
+
+	.categories_item__submenu__item,
+	.archives_item__submenu__item {
+		margin-left: 30px;
+	}
+
+	.thumbnail_menu__item {
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+}
+

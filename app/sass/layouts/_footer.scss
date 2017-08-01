@@ -1,0 +1,164 @@
+.footer {
+ background-color: #252525;
+ background-image: url('../images/pict/footer_bg.png');
+}
+
+.footer > .container-fluid {
+	max-width: 1170px;
+	padding-top: 50px;
+}
+
+.footer__logo_wrapper {
+	display: block;
+	margin: 10px 0 40px;
+}
+
+.footer__logo {
+	display: inline-block;
+	width: 41px;
+	height: 29px;
+	margin-right: 10px;
+}
+
+.footer__logo_title {
+	color: #fff;
+	font: 18px 'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	line-height: 29px;
+	vertical-align: middle;
+	letter-spacing: 3px;
+}
+
+.footer {
+	.paragraph {
+		color: #949494;
+		margin-bottom: 30px;
+	}
+}
+
+.footer__title,
+.footer__contacts {
+	font: 13px/1.5 'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #e3e3e3;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+
+	a {
+		color: #e3e3e3;
+		text-decoration: none;
+		transition: color 0.3s;
+
+		&:hover {
+			color: #999;
+		} 
+	}
+}
+
+.footer__social_networks_menu {
+	margin-bottom: 30px;
+}
+
+.footer__social_networks_item {
+	display: inline-block;
+	font-size: 0;
+	
+	a {
+		display: block;
+		padding: 0 5px 0 2px;
+		font-size: 12px;
+		line-height: 1;
+		border-right: 2px solid #aaa;
+		color: #aaa;
+		transition: color 0.3s;
+
+		&:hover {
+			color: #fff;
+		}
+	}
+
+	&:last-of-type a {
+		border-right-width: 0;
+	}
+}
+
+.footer__form {
+	margin-bottom: 30px;
+
+	.form-inline {
+		.form-group {
+
+			@media screen and (min-width: 768px) {
+				font-size: 0;
+				width: 48%;
+				margin-bottom: 20px;
+
+				&:nth-child(even) {
+					float: right;
+				}
+			}
+		}
+	}
+
+	.form-inline {
+		.form-group--message {
+			margin-bottom: 15px;
+
+			@media screen and (min-width: 768px) {
+				margin-bottom: 20px;
+			}
+		}
+
+		textarea {
+			resize: none;
+			height: auto;
+		}
+	}
+
+	.form-control {
+		border: 2px solid #464646;
+		background: transparent;
+		font: italic 14px/1.5 'Crimson Text', Georgia, 'Times New Roman', serif;
+		color: #3e3d3d;
+
+		&:focus {
+			border-color: #66afe9;
+			box-shadow: none;
+		}
+
+		@media screen and (min-width: 768px) {
+			width: 100%;
+			height: 56px;
+		}
+	}
+
+	.footer__form__submit_btn {
+		width: 100%;
+		padding: 8px 40px;
+		background-color: #464646;
+		color: #e3e3e3;
+		font: 13px/1.5 'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif;
+		transition: 0.3s;
+
+		&:hover {
+			background-color: #ddd;
+			color: #333;
+		}
+
+		&:active {
+			background-color: #161616;
+		}
+
+		@media screen and (min-width: 768px) {
+			width: auto;
+			margin-left: 4px;
+		}
+	}
+}
+
+.corpright {
+	border-top: 1px solid #3e3e3e;
+	color: #949494;
+	font: italic 14px/1.5 'Crimson Text', Georgia, 'Times New Roman', serif;
+	padding: 4% 0; 
+
+}

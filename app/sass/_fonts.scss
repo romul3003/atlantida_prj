@@ -1,0 +1,4 @@
+@import "_mixins/_font-face.sass";
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,700,700i|Montserrat:400,400i,700,700i');
+
+@include font-face('amsdamregular', '../fonts/AmsdamRegular/amsdam_regular-webfont');

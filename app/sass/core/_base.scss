@@ -1,0 +1,103 @@
+img {
+	width: 100%;
+}
+
+.outer_wrapper {
+	padding: 0;
+	background: #e3e3e3;
+}
+
+main.container-fluid {
+	max-width: 1170px;
+	padding: 0;
+	
+	a {
+		color: #818181;
+		text-decoration: none;
+		transition: 0.3s;
+		&:hover {
+		color: #000;
+		}
+	}
+}
+
+.posts {
+	color: #3e3d3d;
+}
+
+%title_common {
+	font-family: 'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.title {
+	font: {
+		size: 16px;
+		weight: 700;
+	}
+	@extend %title_common;
+}
+
+.paragraph {
+	font: 14px/1.5 'Crimson Text', Georgia, 'Times New Roman', serif;
+	margin-bottom: 15px;
+}
+
+.paragraph--quote {
+	font: italic 700 16px/1.5 'Crimson Text', Georgia, 'Times New Roman', serif;
+}
+
+.sidebar__title {
+	font-size: 12px;
+	@extend %title_common;
+}
+
+.sidebar__paragraph,
+.comments__datetime {
+	font: italic 14px/1.5 'Crimson Text', Georgia, 'Times New Roman', serif;
+}
+
+.sidebar__categories__title {
+	font: italic 16px/1.5 'Crimson Text', Georgia, 'Times New Roman', serif;
+}
+
+.comments__title {
+	font-size: 13px;
+	@extend %title_common;
+}
+
+.ripple {
+  position: relative;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0)
+}
+
+ul, ol {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.ripple:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  background-image: radial-gradient(circle, #000 10%, transparent 10.01%);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  transform: scale(10, 10);
+  opacity: 0;
+  transition: transform .5s, opacity 1s
+}
+
+.ripple:active:after {
+  transform: scale(0, 0);
+  opacity: .2;
+  transition: 0s
+}

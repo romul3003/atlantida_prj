@@ -14,11 +14,6 @@ $(document).ready(function(){
     // }]
   });
 
-    // $(".btn_slide").click(function(){
-    //     $(".categories_item__submenu").slideToggle("slow");
-    //     $(this).toggleClass("active"); 
-    //     return false;
-    // });
 
     $('.categories_menu').tendina({
         speed: 300
@@ -28,12 +23,6 @@ $(document).ready(function(){
         speed: 300
     });
 
-    // $(function(){
-    //     $('a.arrow_left').click(function(event){
-    //         $(this).removeClass('arrow_left').addClass('arrow_down');
-    //         event.preventDefault();
-    //     });     
-    // });     
 
      $(function(){
         $('a.btn_slide').click(function(event){
@@ -45,16 +34,4 @@ $(document).ready(function(){
             event.preventDefault();
         });     
     }); 
-
-    // $( ".header__nav_menu_btn" ).click(function() {
-    //     $( ".header__nav_menu" ).slideToggle( "slow", function() {
-    // // Animation complete.
-    //     });
-    // });   
-
-    // $( ".header__nav_menu_btn" ).click(function() {
-    //     $( ".header__nav_menu" ).fadeToggle( "slow", "linear");
-    // });   
-
-
 });

@@ -23,7 +23,6 @@
 <div class="container-fluid outer_wrapper">
 	<!-- HEADER
 ================================================== -->
-
 	<header class="header">
 
 	  <!-- NAVBAR
@@ -83,17 +82,44 @@
 ================================================== -->
 	  <!-- HEADER SLIDER
 ================================================== -->
-<div class="jumbotron blog_sidebar_page_bg">
-  <div class="container">
-    <h1 class="page-title">Blog with sidebar</h1>
+<div class="jumbotron blog_sidebar_page_bg slider">
+  
+   <div class="container">
+    <h1 class="page-title">
+      <a href="page_blog_with_sidebar.html" class="page_link">Blog with sidebar</a>
+    </h1>
+
+    <ol class="breadcrumb">
+      <li class="breadcrumb__item"><a href="#">Home</a></li>
+      <li class="breadcrumb__item">Blog</li>
+    </ol>
+  </div>
+
+<div class="container">
+    <h1 class="page-title">
+      <a href="page_blog_masonry.html" class="page_link">Masonry blog</a>
+    </h1>
    
     <ol class="breadcrumb">
       <li class="breadcrumb__item"><a href="#">Home</a></li>
-      <li class="breadcrumb__item"><a href="index.html">Post</a></li>
+      <li class="breadcrumb__item">Blog</li>
     </ol>
   </div>
-</div>
 
+  <div class="container">
+    <h1 class="page-title">
+      <a href="index.html" class="page_link">Post with sidebar</a>
+    </h1>
+   
+    <ol class="breadcrumb">
+      <li class="breadcrumb__item"><a href="#">Home</a></li>
+      <li class="breadcrumb__item">Blog</li>
+    </ol>
+  </div>
+
+  
+
+</div>
 
 
 <!-- END OF HEADER SLIDER
@@ -106,7 +132,9 @@
 <!-- MAIN
 ================================================== -->
 	<main class="container-fluid">
-		<section class="container blogs">
+		<!-- BLOGS
+================================================== -->
+<section class="container blogs">
 	<div class="row">
 		<div class="col-md-8 col-sm-8">
 			<ul class="blogs_wrap">
@@ -114,7 +142,46 @@
 				<li class="blog_item">
 					<article class="blog__review">
 						<figure class="post_img">
-							<img src="images/img/image-sea.jpg" class="img-responsive" alt="sea side" title="sea side">
+							<a href="index.html">
+								<img src="images/img/image-sea.jpg" class="img-responsive" alt="sea side" title="sea side">
+							</a>
+						</figure>
+						
+
+						<h2 class="title">Donec id lobortis tellus. Maecenas vel dignissim</h2>
+						<p class="paragraph">
+							<i>By Admin / <time datetime="2015-10-07" pubdate>07 October 2015</time></i>
+						</p>
+
+						<ul class="list-inline post_info-wrap">
+							<li class="post_info__item">
+								<i class="fa fa-comment-o" aria-hidden="true"></i></li>
+							<li class="post_info__item">95</li>
+							<li class="post_info__item">
+								<i class="fa fa-eye" aria-hidden="true"></i>
+							</li>
+							<li class="post_info__item">567</li>
+							<li class="post_info__item">
+								<i class="fa fa-briefcase" aria-hidden="true"></i>
+							</li>
+							<li class="post_info__item">Branding</li>
+						</ul>
+
+						<p class="paragraph">
+							Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.
+						</p>
+
+						<a href="index.html" class="btn blog__btn ripple">Read more
+				  	</a>
+					</article>
+				</li>
+
+				<li class="blog_item">
+					<article class="blog__review">
+						<figure class="post_img">
+							<a href="">
+								<img src="images/img/winter_relax.jpg" class="img-responsive" alt="winter relax" title="winter relax">
+							</a>
 						</figure>
 						
 
@@ -149,7 +216,9 @@
 				<li class="blog_item">
 					<article class="blog__review">
 						<figure class="post_img">
-							<img src="images/img/winter_relax.jpg" class="img-responsive" alt="winter relax" title="winter relax">
+							<a href="">
+								<img src="images/img/retro_things.jpg" class="img-responsive" alt="retro things" title="retro things">
+							</a>
 						</figure>
 						
 
@@ -184,7 +253,9 @@
 				<li class="blog_item">
 					<article class="blog__review">
 						<figure class="post_img">
-							<img src="images/img/retro_things.jpg" class="img-responsive" alt="retro things" title="retro things">
+							<a href="">
+								<img src="images/img/map-scheme.jpg" class="img-responsive" alt="map-scheme" title="map-scheme">
+							</a>
 						</figure>
 						
 
@@ -219,42 +290,9 @@
 				<li class="blog_item">
 					<article class="blog__review">
 						<figure class="post_img">
-							<img src="images/img/map-scheme.jpg" class="img-responsive" alt="map-scheme" title="map-scheme">
-						</figure>
-						
-
-						<h2 class="title">Donec id lobortis tellus. Maecenas vel dignissim</h2>
-						<p class="paragraph">
-							<i>By Admin / <time datetime="2015-10-07" pubdate>07 October 2015</time></i>
-						</p>
-
-						<ul class="list-inline post_info-wrap">
-							<li class="post_info__item">
-								<i class="fa fa-comment-o" aria-hidden="true"></i></li>
-							<li class="post_info__item">95</li>
-							<li class="post_info__item">
-								<i class="fa fa-eye" aria-hidden="true"></i>
-							</li>
-							<li class="post_info__item">567</li>
-							<li class="post_info__item">
-								<i class="fa fa-briefcase" aria-hidden="true"></i>
-							</li>
-							<li class="post_info__item">Branding</li>
-						</ul>
-
-						<p class="paragraph">
-							Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.
-						</p>
-
-						<a href="#" class="btn blog__btn ripple">Read more
-				  	</a>
-					</article>
-				</li>
-
-				<li class="blog_item">
-					<article class="blog__review">
-						<figure class="post_img">
-							<img src="images/img/emblem.jpg" class="emblem" alt="Responsive image" title="emblem">
+							<a href="">
+								<img src="images/img/emblem.jpg" class="emblem" alt="Responsive image" title="emblem">
+							</a>
 						</figure>
 						
 
@@ -297,9 +335,11 @@
 
 		</div>
 
+<!-- END OF BLOGS
+================================================== -->
 
-
-
+<!-- SIDEBAR
+================================================== -->
 		<div class="col-md-4 col-sm-4">
 			<aside class="sidebar">
 	<form class="sidebar__form" role="form" name="sidebarForm" action="" method="" autocomplete="on">
@@ -604,6 +644,9 @@
 		</div>
 	</div>
 </section>
+
+<!-- END OF SIDEBAR
+================================================== -->
 	</main>
 <!-- END OF MAIN
 ================================================== -->

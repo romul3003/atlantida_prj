@@ -2550,6 +2550,85 @@ a.blog__pagination_item:hover {
   transition: 0.3s;
 }
 
+.clients_section {
+  padding: 4% 0;
+  background-color: #fff;
+}
+
+.clients_images_wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+.client_image {
+  width: 133px;
+  margin: 30px;
+}
+
+.testimonials_section {
+  background-image: url("../images/img/testimonials_bg.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover;
+  padding: 4% 0;
+}
+
+.testimonials_section .paragraph--quote {
+  margin-bottom: 65px;
+  color: #efefef;
+  font-size: 20px;
+  text-align: center;
+}
+
+.testimonials_section .paragraph--quote blockquote {
+  display: inline-block;
+  font-size: inherit;
+  margin: 0;
+  padding: 0;
+  border-left-width: 0;
+  position: relative;
+}
+
+.testimonials_section .slick-dotted.slick-slider {
+  margin-bottom: 45px;
+}
+
+.testimonials_section .slick-dots {
+  bottom: -50px;
+}
+
+.testimonials_section__avatar {
+  width: 105px;
+  margin: 0 auto 55px;
+}
+
+.testimonials_section__name {
+  margin-bottom: 15px;
+  color: #e3e3e3;
+  font-family: 'Montserrat', "Helvetica Neue", sans-serif;
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.testimonials_section__company {
+  color: #efefef;
+  font-family: 'Crimson Text', Georgia, serif;
+  font-size: 14px;
+  font-style: italic;
+  text-align: center;
+}
+
 #map-conteainer {
   overflow: hidden;
   position: relative;

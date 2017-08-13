@@ -164,6 +164,17 @@ $(document).ready(function(){
         }, 1000);
     });
 
+     $('.scroll_to_footer_section').on('click', function(event){
+        event.preventDefault();
+        var id = $(this).attr('href'), 
+        top = $(id).offset().top;
+        $('body,html').animate({
+            scrollTop: top
+        }, 1000);
+    });
+
+
+
     // $('#portfolio_gallery').mosaicflow({
     //     minItemWidth: 300,
     //     itemHeightCalculation: "height",

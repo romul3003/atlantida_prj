@@ -1,0 +1,54 @@
+// TESTIMONIALS SECTION
+.testimonials_section {
+	background-image: url("../images/img/testimonials_bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 4% 0;
+
+	.paragraph--quote {
+		margin-bottom: 65px;
+		color: #efefef;
+		font-size: 20px;
+		text-align: center;
+
+		blockquote {
+			display: inline-block;
+			font-size: inherit;
+			margin: 0;
+			padding: 0;
+			border-left-width: 0;
+			position: relative;
+		}
+	}
+
+	.slick-dotted.slick-slider {
+		margin-bottom: 45px;
+	}
+
+	.slick-dots {
+		bottom: -50px;
+	}
+}
+
+.testimonials_section__avatar {
+	width: 105px;
+	margin: 0 auto 55px;
+}
+
+.testimonials_section__name {
+	margin-bottom: 15px;
+	color: #e3e3e3;
+	font-family: 'Montserrat', "Helvetica Neue", sans-serif;
+	font-size: 13px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.testimonials_section__company {
+	color: #efefef;
+	font-family: 'Crimson Text', Georgia, serif;
+	font-size: 14px;
+	font-style: italic;
+	text-align: center;
+}

@@ -1,0 +1,61 @@
+// EXPERIENCE SECTION
+.experience_section {
+	@extend .width_of_section;
+	margin-bottom: 4%;
+	
+}
+
+.experience_section__item {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	transition: 0.3s;
+
+	&:nth-of-type(odd) {
+		border-right: 1px solid #b0b0b0;
+	}
+
+	@media screen and (min-width: 768px) {
+		margin-bottom: 0;
+		border-right: 1px solid #b0b0b0;
+		
+		&:last-of-type {
+			border-right-width: 0;
+		}
+	}
+}
+
+.experience__icon,
+.experience__title,
+.experience__counter {
+	text-align: center;
+
+}
+
+.experience__icon {
+	margin-bottom: 15px;
+
+	span {
+		display: inline-block;
+		width: 40px;
+		height: 40px;
+		width: 38px;
+	}
+
+	color: #3e3d3d;
+	font-size: 40px;
+}
+
+.experience__title {
+	color: #3e3d3d;
+	font: 13px 'Montserrat', "Helvetica Neue", sans-serif;
+	text-transform: uppercase;
+}
+
+.experience__counter {
+	color: #3e3d3d;
+	font: 35px 'Montserrat', "Helvetica Neue", sans-serif;
+
+	@media screen and (min-width: 768px) {
+		font-size: 45px;
+	}
+}

@@ -54,30 +54,20 @@
 	}
 }
 
-.footer__social_networks_menu {
-	margin-bottom: 30px;
-}
-
-.footer__social_networks_item {
-	display: inline-block;
-	font-size: 0;
-	
-	a {
-		display: block;
-		padding: 0 5px 0 2px;
-		font-size: 12px;
-		line-height: 1;
-		border-right: 2px solid #aaa;
-		color: #aaa;
-		transition: color 0.3s;
-
-		&:hover {
-			color: #fff;
-		}
+.footer { 
+	.social_networks_info {
+		margin-bottom: 30px;
 	}
 
-	&:last-of-type a {
-		border-right-width: 0;
+	.social_networks_info__item {
+		a {
+			color: #949494;
+			border-right-color: #949494;
+
+			&:hover {
+				color: #fff;
+			}
+		}
 	}
 }
 
@@ -132,7 +122,7 @@
 	}
 
 	.footer__form__submit_btn {
-		width: 50%;
+		width: 100%;
 		padding: 8px 40px;
 		background-color: #464646;
 		color: #e3e3e3;
@@ -146,6 +136,10 @@
 
 		&:active {
 			background-color: #161616;
+		}
+
+		@media screen and (min-width: 480px) {
+			width: 50%;	
 		}
 
 		@media screen and (min-width: 768px) {

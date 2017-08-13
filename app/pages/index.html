@@ -2,22 +2,26 @@
 <div class="container-fluid outer_wrapper">
 <!-- HEADER
 ================================================== -->
-	<header class="header .post_sidebar">
-
+	<header class="header">
 	  @@include('../templates/components/header_navbar.html')
-	  @@include('../templates/components/header_slider_post.html')
-
+		@@include('../templates/components/header_slider.html')
 	</header>
-
-<!-- END OF HEADER
-================================================== -->
+</div>
 <!-- MAIN
 ================================================== -->
-	<main class="container-fluid">
-		@@include('../templates/layouts/posts.html')
+	<main>
+		@@include('../templates/layouts/about_us_section.html')
+		@@include('../templates/components/experience_section.html')
+		@@include('../templates/layouts/services_section.html')
+		@@include('../templates/layouts/history_section.html')
+		@@include('../templates/layouts/our_team_section.html')
+		@@include('../templates/layouts/portfolio_section.html')
+		@@include('../templates/layouts/prices_section.html')
+		@@include('../templates/components/purchase_section.html')
+		@@include('../templates/layouts/blog_main_section.html')
+		@@include('../templates/components/map_section.html')
 	</main>
-<!-- END OF MAIN
-================================================== -->
+
 	@@include('../templates/layouts/footer.html')
-</div>
+
 @@include('../templates/layouts/body-close.html')

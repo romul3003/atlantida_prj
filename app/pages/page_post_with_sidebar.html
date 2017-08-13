@@ -1,0 +1,20 @@
+@@include('../templates/layouts/head.html')
+<div class="container-fluid outer_wrapper">
+<!-- HEADER
+================================================== -->
+	<header class="header">
+
+	  @@include('../templates/components/header_navbar.html')
+	  @@include('../templates/components/header_slider_post.html')
+
+	</header>
+
+<!-- MAIN
+================================================== -->
+	<main class="container-fluid width_of_section">
+		@@include('../templates/layouts/posts.html')
+	</main>
+
+	@@include('../templates/layouts/footer.html')
+</div>
+@@include('../templates/layouts/body-close.html')

@@ -1,0 +1,248 @@
+// HISTORY SECTION
+.history_section {
+	background-color: #ededed;
+	padding: 4% 0 4%;
+	color: #3e3d3d;
+
+	.index_sections__subtitle {
+		color: #3e3d3d;
+		text-align: center;
+		margin-bottom: 6.8%;
+	}
+}
+
+.for_history_row {
+	padding: 0;
+}
+
+
+.history_posts_wrapper {
+	position: relative;
+	margin: 0;
+
+	.row {
+		margin-left: 0;
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+}
+
+.history_scale {
+	position: absolute;
+	width: 2px;
+	height: 100%;
+	background-color: #3c3b3b;
+	left: 50%;
+	top: 0;
+	transform: translate(-1px, 0);
+	display: none;
+
+	@media screen and (min-width: 768px) {
+		display: block;
+	}
+}
+
+.history_year {
+	background-color: #ededed;
+	font-family: 'Montserrat', "Helvetica Neue", sans-serif;
+	font-size: 18px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	position: relative;
+	z-index: 1;
+	transition: 0.3s;
+
+	@media screen and (min-width: 768px) {
+		// display: block;
+		width: 73px;
+		height: 73px;
+		border: 2px solid #3e3d3d;
+		border-radius: 50%;
+		margin-top: 0;
+		margin-bottom: 40px;
+		line-height: 73px;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 18px;
+
+		&:hover {
+			border-color: #ccc;
+			background-color: #3c3b3b;
+			color: #e4e4e4;
+		}
+	}
+}
+
+.history_post__decor {
+	position: absolute;
+	background-color: #3e3d3d;
+	border-radius: 50%;
+	visibility: hidden;
+
+	@media screen and (min-width: 768px) {
+		visibility: visible;
+		width: 17px;
+		height: 17px;
+	}
+}
+
+.history_post__item_wrapper {
+	position: relative;
+	margin-bottom: 2.5%;
+	padding-left: 0;
+	padding-right: 0;
+
+	@media screen and (min-width: 768px) {
+		
+		&:nth-of-type(odd) {
+			.history_post__decor {
+				top: 13px;
+				left: 100%;
+				transform: translate(-50%, 0);
+			
+			}
+
+			.history_post__item {
+				float: left;
+				padding-right: 50px;
+
+				&::before {
+					z-index: 2;
+			    top: 19.5px;
+			    right: -7px;
+			    border-width: 8px 8px 0 0;
+			    border-color: #ededed transparent transparent;
+				}
+
+				&::after {
+					top: 18px;
+			    right: -11px;
+			    border-width: 11px 11px 0 0;
+			    border-color: #3e3d3d transparent transparent;
+				}
+
+				&:hover {
+					&::before {
+						border-top-color: #3e3d3d;
+					}
+
+					&::after {
+						border-top-color: #ccc;
+					}
+				}
+			}
+		}
+
+		&:nth-of-type(even) {
+			margin-top: 4%;
+			
+			.history_post__decor {
+				top: 13px;
+				left: 0;
+				transform: translate(-50%, 0);
+			}
+
+			.history_post__item {
+				float: right;
+				padding-left: 50px;
+
+				&::before {
+					z-index: 2;
+			    top: 19.5px;
+			    left: -7px;
+			    border-width: 0 8px 8px 0;
+			    border-color: transparent #ededed transparent transparent;
+				}
+
+				&::after {
+					top: 18px;
+			    left: -11px;
+			    border-width: 0 11px 11px 0;
+			    border-color: transparent #3e3d3d transparent transparent;
+				}
+
+				&:hover {
+					&::before {
+						border-right-color: #3e3d3d;
+					}
+
+					&::after {
+						border-right-color: #ccc;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+.history_post__item {
+	padding-top: 10px;
+	height: auto;
+	border-bottom: 1px solid #454545;
+	position: relative;
+	transition: 0.3s;
+
+	@media screen and (min-width: 768px) {
+		border: 2px solid #454545;
+		width: 92%;
+		padding: 10px 20px 10px 20px;
+
+		&::before, &::after {
+			position: absolute;
+	    width: 0;
+	    height: 0;
+	    content: '';
+	    border-style: solid;
+	    transition: 0.3s;
+		}
+	}
+
+	&:hover {
+		background-color: #3e3d3d;
+		color: #e4e4e4;
+		border-bottom-color: #ccc;
+
+		@media screen and (min-width: 768px) {
+			border-color: #ccc;
+		}
+	}
+}
+
+.history_post_date {
+	margin-bottom: 20px;
+	font-size: 11px;
+	font-family: 'Montserrat', "Helvetica Neue", sans-serif;
+}
+
+.history_year_last {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 30px;
+	position: relative;
+	z-index: 1;
+	transition: 0.3s;
+
+	@media screen and (min-width: 768px) {
+		width: 54px;
+		height: 54px;
+		border: 2px solid #3e3d3d;
+		border-radius: 50%;
+		background-color: #3e3d3d;
+		margin-top: 0;
+		margin-bottom: 40px;
+		line-height: 54px;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 26px;
+		color: #e4e4e4;
+
+		&:hover {
+			background-color: #ededed;
+			color: #3e3d3d;
+		}
+	}
+}
+

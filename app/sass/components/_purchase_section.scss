@@ -1,0 +1,94 @@
+// PURCHASE SECTION
+.purchase_section {
+	background-color: #2d2d2f;
+	padding: 4% 0;
+
+	.section__content {
+
+		@media screen and (min-width: 768px) {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+	}
+}
+
+.purchase__logo {
+	width: 110px;
+	margin: 0 auto;
+
+	@media screen and (min-width: 768px) {
+		margin: 0;
+	}
+}
+
+.purchase__content {
+	margin: 0 auto;
+	padding: 0 10px;
+
+	@media screen and (min-width: 480px) {
+		width: 90%;
+	}
+
+	@media screen and (min-width: 768px) {
+		width: 60%;
+	}
+}
+
+.purchase__title {
+	margin-bottom: 20px;
+	color: #d8d8d8;
+	font-family: 'Montserrat', "Helvetica Neue", sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 1.5;
+	letter-spacing: 1px;
+}
+
+.purchase_section {
+	.paragraph {
+		color: #888888;
+		font-family: "Crimson Text";
+		font-size: 16px;
+		font-style: italic;
+	}
+}
+
+.btn_wrapper {
+	text-align: center;
+	padding: 0 10px;
+
+	@media screen and (min-width: 768px) {
+		text-align: left;
+	}
+}
+
+.purchase__btn {
+	display: inline-block;
+	width: 100%;
+	border: 2px solid #e3e3e3;
+	padding: 10px 10px;
+	background-color: #2d2d2f;
+	color: #e3e3e3;
+	font-family: 'Montserrat', "Helvetica Neue", sans-serif;
+	font-size: 13px;
+	text-align: center;
+
+	&:focus {
+		color: #e3e3e3;
+	}
+
+	&:hover {
+		background-color: #d8d8d8;;
+		color: #2d2d2f;
+		text-decoration: none;
+	}
+
+	@media screen and (min-width: 480px) {
+		width: 50%;
+	}
+
+	@media screen and (min-width: 768px) {
+		width: 134px;
+	}
+}

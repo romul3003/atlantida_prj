@@ -1,0 +1,87 @@
+// OUR TEAM SECTION
+.our_team_section {
+	background-image: url("../images/img/bg_our_team.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 4% 0;
+	color: #3e3d3d;
+}
+
+.our_team__images {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 auto;
+
+	@media screen and (min-width: 600px) {
+		flex-direction: row;
+		justify-content: center;
+	}
+}
+
+.our_team_member_image {
+	width: 270px;
+	margin: 1%;
+	position: relative;
+	overflow: hidden;
+
+	&:hover {
+		cursor: pointer;
+		.our_team_member_visit_card {
+			top: 0%;
+		}
+	}
+}
+
+.our_team_member_visit_card {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	background-color: #f6f6f6;
+	opacity: 0.82;
+	position: absolute;
+	top: -100%;
+	transition: 1s ease;
+}
+
+.team_member_personal_info {
+	width: 100%;
+	align-self: flex-end;
+}
+
+.team_member_name {
+	margin-bottom: 5px;
+	font-size: 13px;
+	font-family: 'Montserrat', "Helvetica Neue", sans-serif;
+}
+
+.team_member_position {
+	margin-bottom: 5px;
+	font-size: 14px;
+	font-style: italic;
+	font-family: 'Crimson Text', Georgia, serif;
+}
+
+.team_member_personal_info {
+	padding: 20px;
+}
+
+.team_member_personal_info > .devider {
+	width: 55%;
+	height: 2px;
+	margin-bottom: 5px;
+	background-color: #515151;
+}
+
+.our_team {
+	.social_networks_info__item {
+		a {
+			border-right-color: #3e3d3d;
+			color: #3e3d3d;
+
+			&:hover {
+				color: #999;
+			}
+		}
+	}
+}

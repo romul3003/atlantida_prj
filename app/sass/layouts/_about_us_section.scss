@@ -1,0 +1,52 @@
+// ABOUT US SECTION
+.about_us_section {
+	@extend .width_of_section;
+	background-color: #fff;
+	margin-bottom: 4%;
+	
+	.section__content {
+		padding: 5%;
+	}
+
+	.paragraph {
+		margin-bottom: 40px;
+	}
+}
+
+.portfolio_btn {
+	display: inline-block;
+	width: 100%;
+	border: 2px solid #3e3d3d;
+	padding: 8px 5px;
+	color: #3e3d3d;
+	font-size: 13px;
+	font-family: 'Montserrat', "Helvetica Neue", sans-serif;
+	line-height: 1.5;
+	margin-left: 2.5px;
+	margin-right: 2.5px;
+	margin-bottom: 10px;
+
+	@media screen and (min-width: 480px) {
+		width: 130px;
+	}
+
+	&:focus {
+		color: #3e3d3d;
+	}
+
+	&:hover {
+		background-color: #999;
+		text-decoration: none;
+	}
+}
+
+.contact_btn {
+	@extend .portfolio_btn;
+	background-color: #3e3d3d;
+	color: #cecece;
+}
+
+
+.btn_container {
+	text-align: center;
+}

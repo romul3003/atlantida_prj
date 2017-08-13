@@ -1,0 +1,12 @@
+#map-conteainer {
+	overflow: hidden;
+	position: relative;
+	padding-top: 50%;
+}
+
+#map {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}

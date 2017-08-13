@@ -136,7 +136,7 @@ $post__devider_color: #b7b7b7;
 	}
 
 	.comment_form__submit_btn {
-		width: 50%;
+		width: 100%;
 		padding: 8px 35px;
 		background-color: #464646;
 		color: #e3e3e3;
@@ -150,6 +150,10 @@ $post__devider_color: #b7b7b7;
 
 		&:active {
 			background-color: #161616;
+		}
+
+		@media screen and (min-width: 480px) {
+			width: 50%;	
 		}
 
 		@media screen and (min-width: 768px) {

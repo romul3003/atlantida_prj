@@ -1,13 +1,17 @@
 // HEADER
 
+// .main_bg {
+// 	 background: url('../images/img/atlantida_main.jpg') no-repeat;
+// 	 background-size: cover;
+
+// }
+
 .header {
- background: #373737;
+	margin-bottom: 5%;
 }
 
 .header > .container-fluid {
-	max-width: 1170px;
-	padding-left: 15px;
-	padding-right: 15px;
+	background-color: #373737;
 }
 
 // END OF HEADER

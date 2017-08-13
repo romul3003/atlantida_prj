@@ -23,590 +23,846 @@
 <div class="container-fluid outer_wrapper">
 <!-- HEADER
 ================================================== -->
-	<header class="header .post_sidebar">
-
+	<header class="header">
 	  <!-- NAVBAR
 ================================================== -->
-  
 <div class="container-fluid">
+  <div class="container-fluid header__navbar_wrapper">
 
-<div class="header__navbar">
+  <div class="header__navbar">
 
-    <a href="#" class="header__logo_wrapper">
-      <div class="header__logo">
-        <img src="images/pict/icon-logo.png" alt="logo image">
-      </div>
-      <span class="header__logo_title">Atlantida</span>
-    </a>
-      
-    <label for="menu_toggle" class="header__nav_menu_btn">&#9776;</label>
-    <input type="checkbox" id="menu_toggle" class="header__nav_menu_toggle" name="menu_tuggle">
+      <a href="index.html" class="header__logo_wrapper">
+        <div class="header__logo">
+          <img src="images/icons/icon-logo.png" alt="logo image">
+        </div>
+        <span class="header__logo_title">Atlantida</span>
+      </a>
+        
+      <label for="menu_toggle" class="header__nav_menu_btn">&#9776;</label>
+      <input type="checkbox" id="menu_toggle" class="header__nav_menu_toggle" name="menu_tuggle">
 
-    <nav class="header__nav_menu">
-      <a href="#" class="header__nav_item">Home</a>
-      <a href="#" class="header__nav_item">About</a>
-      <a href="#" class="header__nav_item">Services</a>
-      <a href="#" class="header__nav_item">History</a>
-      <a href="#" class="header__nav_item">Team</a>
-      <a href="#" class="header__nav_item">Portfolio</a>
-      <a href="#" class="header__nav_item">Prices</a>
-      <a href="#" class="header__nav_item">Blog</a>
-      <a href="#" class="header__nav_item">Contact</a>
-    </nav>
+      <nav class="header__nav_menu">
+        <a href="index.html" class="header__nav_item">Home</a>
+        <a href="#about_us_section_ancor" class="header__nav_item scroll_to_about_us_section">About</a>
+        <a href="#services_section_ancor" class="header__nav_item scroll_to_services_section">Services</a>
+        <a href="#history_section_ancor" class="header__nav_item scroll_to_history_section">History</a>
+        <a href="#our_team_section_ancor" class="header__nav_item scroll_to_our_team_section">Team</a>
+        <a href="#portfolio_section_ancor" class="header__nav_item scroll_to_portfolio_section">Portfolio</a>
+        <a href="#prices_section_ancor" class="header__nav_item scroll_to_prices_section">Prices</a>
+        <a href="#blog_main_section_ancor" class="header__nav_item scroll_to_blog_main_section">Blog</a>
+        <a href="#contacts_section_ancor" class="header__nav_item">Contact</a>
+      </nav>
 
-    <ul class="header__social_networks_menu">
-      <li class="header__social_networks_item">
-        <a href="#" class="header__social_network_link">
-           <i class="fa fa-facebook-official" aria-hidden="true"></i>
-        </a>
-      </li>
+      <ul class="social_networks_info">
+        <li class="social_networks_info__item">
+          <a href="#">
+             <i class="fa fa-facebook-official" aria-hidden="true"></i>
+          </a>
+        </li>
 
-      <li class="header__social_networks_item">
-        <a href="#" class="header__social_network_link">
-            <i class="fa fa-twitter" aria-hidden="true"></i>
-        </a>
-      </li>
-      
-      <li class="header__social_networks_item">
-        <a href="#" class="header__social_network_link">
-           <i class="fa fa-behance" aria-hidden="true"></i>
-        </a>
-      </li>
-    </ul>
-  
-  </div>   
+        <li class="social_networks_info__item">
+          <a href="#">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+          </a>
+        </li>
+        
+        <li class="social_networks_info__item">
+          <a href="#">
+             <i class="fa fa-behance" aria-hidden="true"></i>
+          </a>
+        </li>
+      </ul>
+    
+    </div>   
+
+  </div>
 
 </div>
-
 <!-- END OF NAVBAR
 ================================================== -->
-	  <!-- HEADER SLIDER
+		<!--HEADER SLIDER
 ================================================== -->
+<div class="header_slider">
 
-<div class="jumbotron post_sidebar_page_bg slider">
-  <div class="container">
-    <h1 class="page-title">
-       <a href="index.html" class="page_link">Post with sidebar</a>
-    </h1>
-   
-    <ol class="breadcrumb">
-      <li class="breadcrumb__item"><a href="#">Home</a></li>
-      <li class="breadcrumb__item">Blog</li>
-    </ol>
-  </div>
 
-   <div class="container">
-    <h1 class="page-title">
-      <a href="page_blog_with_sidebar.html" class="page_link">Blog with sidebar</a>
-    </h1>
+<div class="jcarousel-wrapper">
+        <!-- Carousel -->
+  <div class="jcarousel">
+    <ul>
+      <li>
+        <img src="images/img/atlantiada_main.jpg" alt="">
+      </li>
 
-    <ol class="breadcrumb">
-      <li class="breadcrumb__item"><a href="#">Home</a></li>
-      <li class="breadcrumb__item">Blog</li>
-    </ol>
-  </div>
+      <li>
+        <img src="images/img/atlantiada_main.jpg" alt="">
+      </li>
 
-  <div class="container">
-    <h1 class="page-title">
-      <a href="page_blog_masonry.html" class="page_link">Masonry page</a>
-    </h1>
-   
-    <ol class="breadcrumb">
-      <li class="breadcrumb__item"><a href="#">Home</a></li>
-      <li class="breadcrumb__item">Blog</li>
-    </ol>
-  </div>
+      <li>
+        <img src="images/img/atlantiada_main.jpg" alt="">
+      </li>
 
+      <li>
+        <img src="images/img/atlantiada_main.jpg" alt="">
+      </li>
+           
+    </ul>
+</div>
+<!-- Prev/next controls -->
+<a href="#" class="jcarousel-prev">&lsaquo;</a>
+<a href="#" class="jcarousel-next">&rsaquo;</a>
+<!-- Pagination -->
+<p class="jcarousel-pagination">
+    <!-- Pagination items will be generated in here -->
+</p>
+</div>
+
+<div class="title_wrapper">
+  <h1 class="page-title">
+    <a href="index.html" class="page_link with_agency_title">We are Atlantida</a>
+  </h1>
+
+  <a href="#about_us_section_ancor" class="start_btn">Get Started
+  <span class="start_btn__arrow"></span>
+  </a>
 </div>
 
 
-<!-- END OF HEADER SLIDER
-================================================== -->
+</div>
 
 	</header>
-
-<!-- END OF HEADER
-================================================== -->
+</div>
 <!-- MAIN
 ================================================== -->
-	<main class="container-fluid">
-		<section class="container posts">
-	<div class="row">
-		<div class="col-md-8 col-sm-8">
-			<!-- POST
-================================================== -->
-<article class="posts_item">
-	<figure class="post_img">
-		<img src="images/img/image-sea.jpg" class="img-responsive" alt="sea side" title="sea side">
-	</figure>
-	
-
-	<h2 class="title">Donec id lobortis tellus. Maecenas vel dignissim</h2>
-	<p class="paragraph">
-		<i>By Admin / <time datetime="2015-10-07" pubdate>07 October 2015</time></i>
-	</p>
-
-	<ul class="list-inline post_info-wrap">
-		<li class="post_info__item">
-			<i class="fa fa-comment-o" aria-hidden="true"></i></li>
-		<li class="post_info__item">95</li>
-		<li class="post_info__item">
-			<i class="fa fa-eye" aria-hidden="true"></i>
-		</li>
-		<li class="post_info__item">567</li>
-		<li class="post_info__item">
-			<i class="fa fa-briefcase" aria-hidden="true"></i>
-		</li>
-		<li class="post_info__item">Branding</li>
-	</ul>
-
-	<p class="paragraph">
-		Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.
-	</p>
-	<p class="paragraph">
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac consequat erat. Maecenas dignissim, justo sit amet consequat sagittis, libero ipsum elementum nisi, at efficitur tellus ante a nisl. Pellentesque eu imperdiet lacus, quis gravida libero. Vivamus ac est mauris. Sed orci velit, iaculis quis elementum sit amet, lacinia vitae purus. Nam magna nulla, ultrices nec faucibus in, venenatis imperdiet nisi. Aliquam interdum lectus tempus nunc luctus condimentum a vel magna.
-	</p>
-	<p class="paragraph">
-		Aliquam nibh diam, elementum in lorem eu, dictum pretium leo. Nullam condimentum ante at sapien consectetur fringilla. Fusce ut ultricies tortor, eu sagittis elit. Pellentesque pretium, arcu ut consectetur posuere, nulla purus porttitor eros, vel eleifend mi ligula vel ligula. Aenean eget malesuada erat, ut ultricies orci. Sed sed tortor ut lorem semper feugiat vel vel magna. Aliquam fermentum, nunc nec cursus lobortis, odio odio elementum augue, eget rhoncus magna elit ut lorem. Quisque ac quam non purus venenatis lacinia. Donec sit amet posuere ante, pulvinar interdum nibh.
-	</p>
-	<blockquote class="paragraph--quote text-center">
-		Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula
-	</blockquote>
-	<p class="paragraph">
-		Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.
-	</p>
-	<p class="paragraph">
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac consequat erat. Maecenas dignissim, justo sit amet consequat sagittis, libero ipsum elementum nisi, at efficitur tellus ante a nisl. Pellentesque eu imperdiet lacus, quis gravida libero. Vivamus ac est mauris. Sed orci velit, iaculis quis elementum sit amet, lacinia vitae purus. Nam magna nulla, ultrices nec faucibus in, venenatis imperdiet nisi. Aliquam interdum lectus tempus nunc luctus condimentum a vel magna.
-	</p>
-	<p class="paragraph">
-		Aliquam nibh diam, elementum in lorem eu, dictum pretium leo. Nullam condimentum ante at sapien consectetur fringilla. Fusce ut ultricies tortor, eu sagittis elit. Pellentesque pretium, arcu ut consectetur posuere, nulla purus porttitor eros, vel eleifend mi ligula vel ligula. Aenean eget malesuada erat, ut ultricies orci. Sed sed tortor ut lorem semper feugiat vel vel magna. Aliquam fermentum, nunc nec cursus lobortis, odio odio elementum augue, eget rhoncus magna elit ut lorem. Quisque ac quam non purus venenatis lacinia. Donec sit amet posuere ante, pulvinar interdum nibh.
-	</p>
-	
-
-	<ul class="list-inline social_media_menu text-center">
-		<li class="social_media_item">
-			<a href="#" class="social_network_link">
-				<i class="fa fa-facebook" aria-hidden="true"></i>
-			</a>
-		</li>
-		<li class="social_media_item">
-			<a href="#" class="social_network_link">
-				<i class="fa fa-twitter" aria-hidden="true"></i>
-			</a>
-		</li>
-		<li class="social_media_item">
-			<a href="#" class="social_network_link">
-				<i class="fa fa-google-plus" aria-hidden="true"></i>
-			</a>
-		</li>
-		<li class="social_media_item">
-			<a href="#" class="social_network_link">
-				<i class="fa fa-behance" aria-hidden="true"></i>
-			</a>
-		</li>
-		<li class="social_media_item">
-			<a href="#" class="social_network_link">
-				<i class="fa fa-youtube" aria-hidden="true"></i>
-			</a>
-		</li>
-	</ul>
-</article>
-<!-- END OF POST
+	<main>
+		<!-- ABOUT US SECTION
 ================================================== -->
 
+<section id="about_us_section_ancor" class="about_us_section">
+	<div class="about_us__image">
+		<img src="images/img/about_us.jpg" alt="">
+	</div>
 
-<!-- COMMENTS
-================================================== -->
-<section class="comments">
-	<h2 class="title">Comments <span class="comments_counter">(4)</span></h2>
-	<ul class="media-list">
-		<li class="media">
-			<a class="pull-left" href="#">
-	      <img class="media-object" src="images/img/avatar_user_1.png" alt="avatar">
-	    </a>
-	    <div class="media-body">
-	      <h3 class="media-heading comments__title">
-	      Brian Smith
-	      </h3>
-	      <p class="comments__datetime">
-	      	<time datetime="2015-11-02T11:00">02 November 2015 at 11:00 pm</time>
-	      </p>
-	      <p class="paragraph">
-	      	Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.
-	      </p>
-	      <p class="paragraph comment_reply text-right">
-	      	<a href="#"><span class="comment_reply_icon"><i class="fa fa-reply" aria-hidden="true"></i></span><i>Reply</i></a>
-	      </p>
+	<div class="section__content">
+		<h2 class="index_sections__title">
+			About us
+		</h2>
 
-	      <div class="media">
-					<a class="pull-left" href="#">
-			      <img class="media-object" src="images/img/avatar_user_2.png" alt="avatar">
-			    </a>
-			    <div class="media-body">
-			      <h3 class="media-heading comments__title">
-			      Angela Roberts
-			      </h3>
-			      <p class="comments__datetime">
-			      	<time datetime="2015-11-03T08:00">03 November 2015 at 08:00 pm</time>
-			      </p>
-			      <p class="paragraph">
-			      	Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.
-			      </p>
-			      <p class="paragraph comment_reply text-right">
-			      	<a href="#"><span class="comment_reply_icon"><i class="fa fa-reply" aria-hidden="true"></i></span><i>Reply</i></a>
-			      </p>
-			    </div>
-				</div>
+		<p class="paragraph">
+			Donec aliquet, ipsum ut lobortis facilisis, nisi ligula aliquam odio, ut vehicula odio lorem in erat. Quisque quam ipsum, commodo non condimentum a, fermentum id sapien. Pellentesque sit amet sem neque. Maecenas est enim, sollicitudin sit amet nisi vel, mattis efficitur sapien. Nulla lobortis dui in aliquam placerat. Maecenas commodo odio nec neque imperdiet sagittis. Fusce mauris tellus, vulputate id finibus a, rutrum et justo. Vivamus at eros sed justo laoreet mattis vulputate vel magna. Sed quis pulvinar quam, et tempus purus. Fusce et nisi eget dui hendrerit iaculis. Cras volutpat augue tempor viverra tincidunt. Maecenas interdum scelerisque enim. Aenean interdum leo ac lectus gravida, id tincidunt sem finibus. Curabitur ac arcu blandit, tempus leo id, ultrices ante. 
+		</p>
 
-	    </div>
-		</li>
-	</ul>
-</section>
-
-<section class="leave_comment">
-		<h2 class="title">Leave a comment</h2>
-
-		<form class="form-inline" role="form" name="commentForm" action="" method="" autocomplete="on">
-		  <div class="form-group">
-		    <label class="sr-only" for="input_name">Name</label>
-		    <input type="text" class="form-control" id="input_name" placeholder="Name*" name="user" required>
-		  </div>
-		  <div class="form-group">
-		    <label class="sr-only" for="input_email">Email</label>
-		    <input type="email" class="form-control" id="input_email" placeholder="E-mail*" name="email" required>
-		  </div>
-		   <div class="form-group">
-		    <label class="sr-only" for="input_subject">Subject</label>
-		    <input type="text" class="form-control" id="input_subject" placeholder="Subject" name="subject">
-		  </div>
-		  <div class="form-group">
-		    <label class="sr-only" for="input_subject">Website</label>
-		    <input type="url" class="form-control" id="input_website" placeholder="Website" name="website">
-		  </div>
-		  <div class="form-group--message">
-		    <label class="sr-only" for="input_message">Message</label>
-		    <textarea rows="3" class="form-control" id="input_message" placeholder="Message" name="message"></textarea>
-		  </div>
-		  <button type="submit" class="btn comment_form__submit_btn ripple">Submit
-		  </button>
-	</form>
-</section>
-
-<!-- ENF OF COMMENTS
-================================================== -->
+		<div class="btn_container">
+			<a href="#" class="contact_btn">Contact us</a>
+			<a href="#" class="portfolio_btn">Portfolio</a>
 		</div>
-		<div class="col-md-4 col-sm-4">
-			<aside class="sidebar">
-	<form class="sidebar__form" role="form" name="sidebarForm" action="" method="" autocomplete="on">
-		<div class="form-group">
-	    <input type="search" class="form-control sidebar__search" placeholder="Search">
-	     <button type="submit" class="sidebar_form__submit_btn ripple"><i class="fa fa-search" aria-hidden="true"></i></button>
-	  </div>
-	</form>
-
-	<section class="sidebar__latest_posts">
-		<h2 class="title"><a href="#">Latest posts</a></h2>
-			<ul class="latest_posts_menu">
-				<li class="latest_posts__item">
-					<div class="row">
-						<div class="col-md-5 col-sm-5 col-xs-5">
-							<div class="thumbnail">
-								<a href="#"><img src="images/img/thumbnail_1.png" alt="thumbnail"></a>
-							</div>
-						</div>
-			 			<div class="col-md-7 col-sm-7 col-xs-7">
-			 				<h3 class="sidebar__title"><a href="#">
-			 					Sit amet pretium odio magna ege
-			 				</a></h3>
-			 				<p class="sidebar__paragraph">
-			 					Nullam lobortis, turpis lobortis placerat vehicula, ipsum
-			 				</p>
-			 			</div>
-					</div>
-				</li>
-
-				<li class="latest_posts__item">
-					<div class="row">
-						<div class="col-md-5 col-sm-5 col-xs-5 .col-xs-7">
-							<div class="thumbnail">
-								<a href="#"><img src="images/img/thumbnail_2.png" alt="thumbnail"></a>
-							</div>
-						</div>
-			 			<div class="col-md-7 col-sm-7 col-xs-7">
-			 				<h3 class="sidebar__title"><a href="#">
-			 					Sit amet pretium odio magna ege</a>
-			 				</h3>
-			 				<p class="sidebar__paragraph">
-			 					Nullam lobortis, turpis lobortis placerat vehicula, ipsum
-			 				</p>
-			 			</div>
-					</div>
-				</li>
-
-				<li class="latest_posts__item">
-					<div class="row">
-						<div class="col-md-5 col-sm-5 col-xs-5">
-							<div class="thumbnail">
-								<a href="#"><img src="images/img/thumbnail_3.png" alt="thumbnail"></a>
-							</div>
-						</div>
-			 			<div class="col-md-7 col-sm-7 col-xs-7">
-			 				<h3 class="sidebar__title"><a href="#">
-			 					Sit amet pretium odio magna ege</a>
-			 				</h3>
-			 				<p class="sidebar__paragraph">
-			 					Nullam lobortis, turpis lobortis placerat vehicula, ipsum
-			 				</p>
-			 			</div>
-					</div>
-				</li>
-
-				<li class="latest_posts__item">
-					<div class="row">
-						<div class="col-md-5 col-sm-5 col-xs-5">
-							<div class="thumbnail">
-								<a href="#"><img src="images/img/thumbnail_4.png" alt="thumbnail"></a>
-							</div>
-						</div>
-			 			<div class="col-md-7 col-sm-7 col-xs-7">
-			 				<h3 class="sidebar__title"><a href="#">
-			 					Sit amet pretium odio magna ege</a>
-			 				</h3>
-			 				<p class="sidebar__paragraph">
-			 					Nullam lobortis, turpis lobortis placerat vehicula, ipsum
-			 				</p>
-			 			</div>
-					</div>
-				</li>
-			</ul>
-	</section>
-
-	<section class="sidebar__categories">
-		
-		<h2 class="title">Categories</h2>
-		<ul class="categories_menu">
-			<li class="categories_item">
-
-				<a href="#" class="btn_slide sidebar__categories__title arrow_left">Photography</a>
-				<ul class="categories_item__submenu">
-					<li class="categories_item__submenu__item">
-					<p class="sidebar__paragraph">Some context</p>
-					</li>
-					<li class="categories_item__submenu__item">
-						<p class="sidebar__paragraph">Some context</p>
-					</li>
-					<li class="categories_item__submenu__item">
-						<p class="sidebar__paragraph">Some context</p>
-					</li>
-				</ul>
-			</li>
-
-			<li class="categories_item">
-				<a href="#" class="btn_slide sidebar__categories__title arrow_left">Website Design</a>
-				<ul class="categories_item__submenu">
-					<li class="categories_item__submenu__item">
-					<p class="sidebar__paragraph">Some context</p>
-					</li>
-					<li class="categories_item__submenu__item">
-						<p class="sidebar__paragraph">Some context</p>
-					</li>
-					<li class="categories_item__submenu__item">
-						<p class="sidebar__paragraph">Some context</p>
-					</li>
-				</ul>
-			</li>
-
-			<li class="categories_item">
-				<a href="#" class="btn_slide sidebar__categories__title arrow_left">Branding</a>
-				<ul class="categories_item__submenu">
-					<li class="categories_item__submenu__item">
-					<p class="sidebar__paragraph">Some context</p>
-					</li>
-					<li class="categories_item__submenu__item">
-						<p class="sidebar__paragraph">Some context</p>
-					</li>
-					<li class="categories_item__submenu__item">
-						<p class="sidebar__paragraph">Some context</p>
-					</li>
-				</ul>
-			</li>
-
-			<li class="categories_item">
-				<a href="#" class="btn_slide sidebar__categories__title arrow_left">Flyers</a>
-				<!-- </h4> -->
-				<ul class="categories_item__submenu">
-					<li class="categories_item__submenu__item">
-						<p class="sidebar__paragraph">Some context</p>
-					</li>
-					<li class="categories_item__submenu__item">
-						<p class="sidebar__paragraph">Some context</p>
-					</li>
-					<li class="categories_item__submenu__item">
-						<p class="sidebar__paragraph">Some context</p>
-					</li>
-				</ul>
-			</li>
-
-			<li class="categories_item">
-				<a href="#" class="btn_slide sidebar__categories__title arrow_left">Uncategories</a>
-				<ul class="categories_item__submenu">
-					<li class="categories_item__submenu__item">
-						<p class="sidebar__paragraph">Some context</p>
-					</li>
-					<li class="categories_item__submenu__item">
-						<p class="sidebar__paragraph">Some context</p>
-					</li>
-					<li class="categories_item__submenu__item">
-						<p class="sidebar__paragraph">Some context</p>
-					</li>
-				</ul>
-			</li>
-
-			<li class="categories_item">
-				<a href="#" class="btn_slide sidebar__categories__title arrow_left">Category 22</a>
-				<ul class="categories_item__submenu">
-					<li class="categories_item__submenu__item">
-						<p class="sidebar__paragraph">Some context</p>
-					</li>
-					<li class="categories_item__submenu__item">
-						<p class="sidebar__paragraph">Some context</p>
-					</li>
-					<li class="categories_item__submenu__item">
-						<p class="sidebar__paragraph">Some context</p>
-					</li>
-				</ul>
-			</li>
-		</ul>
-
-	</section>
+	</div>
 
 
-	<section class="sidebar__archives">
-		
-		<h2 class="title">Archives</h2>
-		<ul class="archives_menu">
-			<li class="archives_item">
-				<a href="#" class="btn_slide sidebar__archives__title arrow_left">January 2015</a>
-				<ul class="archives_item__submenu">
-					<li class="archives_item__submenu__item">
-						<p class="sidebar__paragraph">Some context</p>
-					</li>
-					<li class="archives_item__submenu__item">
-						<p class="sidebar__paragraph">Some context</p>
-					</li>
-					<li class="archives_item__submenu__item">
-						<p class="sidebar__paragraph">Some context</p>
-					</li>
-				</ul>
-			</li>
+</section>
+		<!-- EXPERIENCE SECTION
+================================================== -->
+<section class="experience_section">
+	<div class="section__content row">
+		<div class="col-sm-3 col-xs-6 experience_section__item">
+			<p class="experience__icon">
+				<span>
+					<img src="images/icons/icon-award.png" alt="">
+				</span>
+			</p>
+			<p class="experience__title">
+				Awards <br>winner
+			</p>
+			<p class="experience__counter">
+				54
+			</p>
+		</div>
 
-			<li class="categories_item">
-				<a href="#" class="btn_slide sidebar__categories__title arrow_left">December 2015</a>
-				<ul class="categories_item__submenu">
-					<li class="categories_item__submenu__item">
-						<p class="sidebar__paragraph">Some context</p>
-					</li>
-					<li class="categories_item__submenu__item">
-						<p class="sidebar__paragraph">Some context</p>
-					</li>
-					<li class="categories_item__submenu__item">
-						<p class="sidebar__paragraph">Some context</p>
-					</li>
-				</ul>
-			</li>
+		<div class="col-sm-3 col-xs-6 experience_section__item">
+			<p class="experience__icon">
+				<span>
+					<img src="images/icons/icon-checked-checkbox.png" alt="">
+				</span>
+			</p>
+			<p class="experience__title">
+				Jobs<br>done
+			</p>
+			<p class="experience__counter">
+				1054
+			</p>			
+		</div>
 
-			<li class="categories_item">
-				<a href="#" class="btn_slide sidebar__categories__title arrow_left">November 2015</a>
-				<ul class="categories_item__submenu">
-					<li class="categories_item__submenu__item">
-						<p class="sidebar__paragraph">Some context</p>
-					</li>
-					<li class="categories_item__submenu__item">
-						<p class="sidebar__paragraph">Some context</p>
-					</li>
-					<li class="categories_item__submenu__item">
-						<p class="sidebar__paragraph">Some context</p>
-					</li>
-				</ul>
-			</li>
+		<div class="col-sm-3 col-xs-6 experience_section__item">
+			<p class="experience__icon">
+				<span>
+					<img src="images/icons/icon-businessman.png" alt="">
+				</span>
+			</p>
+			<p class="experience__title">
+				Happy <br>clients
+			</p>
+			<p class="experience__counter">
+				120
+			</p>		
+		</div>
 
-			<li class="categories_item">
-				<a href="#" class="btn_slide sidebar__categories__title arrow_left">October 2015</a>
-				<ul class="categories_item__submenu">
-					<li class="categories_item__submenu__item">
-						<p class="sidebar__paragraph">Some context</p>
-					</li>
-					<li class="categories_item__submenu__item">
-						<p class="sidebar__paragraph">Some context</p>
-					</li>
-					<li class="categories_item__submenu__item">
-						<p class="sidebar__paragraph">Some context</p>
-					</li>
-				</ul>
-			</li>
-
-			<li class="categories_item">
-				<a href="#" class="btn_slide sidebar__categories__title arrow_left">September 2015</a>
-				<ul class="categories_item__submenu">
-					<li class="categories_item__submenu__item">
-						<p class="sidebar__paragraph">Some context</p>
-					</li>
-					<li class="categories_item__submenu__item">
-						<p class="sidebar__paragraph">Some context</p>
-					</li>
-					<li class="categories_item__submenu__item">
-						<p class="sidebar__paragraph">Some context</p>
-					</li>
-				</ul>
-			</li>
-		</ul>
-
-	</section>
-
-	<section class="flickr_photos">
-
-		<h2 class="title">Flickr photos</h2>
-
-		<ul class="row thumbnail_menu">
-		  <li class="col-xs-4 col-sm-4 col-md-4 thumbnail_menu__item">
-		      <a href="#"><img src="images/img/flickr_1.png" alt="thumbnail image"></a>
-		  </li>
-
-		  <li class="col-xs-4 col-sm-4 col-md-4 thumbnail_menu__item">
-		      <a href="#"><img src="images/img/flickr_2.png" alt="thumbnail image"></a>
-		  </li>
-
-		  <li class="col-xs-4 col-sm-4 col-md-4 thumbnail_menu__item">
-		      <a href="#"><img src="images/img/flickr_3.png" alt="thumbnail image"></a>
-		  </li>
-
-		  <li class="col-xs-4 col-sm-4 col-md-4 thumbnail_menu__item">
-		      <a href="#"><img src="images/img/flickr_4.png" alt="thumbnail image"></a>
-		  </li>
-
-		  <li class="col-xs-4 col-sm-4 col-md-4 thumbnail_menu__item">
-		      <a href="#"><img src="images/img/flickr_5.png" alt="thumbnail image"></a>
-		  </li>
-
-		  <li class="col-xs-4 col-sm-4 col-md-4 thumbnail_menu__item">
-		      <a href="#"><img src="images/img/flickr_6.png" alt="thumbnail image"></a>
-		  </li>
-		</ul>
-
-	</section>
-</aside>
-
+		<div class="col-sm-3 col-xs-6 experience_section__item">
+			<p class="experience__icon">
+				<span>
+					<img src="images/icons/icon-briefcase.png" alt="">
+				</span>
+			</p>
+			<p class="experience__title">
+				Reviews <br>recieved
+			</p>
+			<p class="experience__counter">
+				54
+			</p>			
 		</div>
 	</div>
 </section>
-	</main>
-<!-- END OF MAIN
+		<!-- SERVICES SECTION
 ================================================== -->
+<section id="services_section_ancor" class="services_section container-fluid">
+	<div class="section__content container-fluid">
+
+		<h2 class="index_sections__title">
+				Services
+		</h2>
+
+		<h3 class="index_sections__subtitle">
+			Donec aliquet, ipsum ut lobortis facilisis, nisi ligula aliquam odio, ut vehicula odio lorem in erat. Quisque quam ipsum, commodo non condimentum a, fermentum id sapien. Pellentesque sit amet sem neque. 
+		</h3>
+
+		<div class="services_section__menu">
+			<div class="services_section__item">
+					<div class="services_section_icon">
+						<i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+					</div>
+				<h4 class="services_section__title">
+					Graphic design
+				</h4>
+				<p class="paragraph">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed ipsum pulvinar, consequat ipsum non, sodales augue. Donec dapibus ipsum rutrum congue egestas. Curabitur fringilla tortor non aliquam congue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+				</p>
+			</div>
+
+			<div class="services_section__item">
+				<div class="services_section_icon">
+					<i class="fa fa-television" aria-hidden="true"></i>
+				</div>
+				<h4 class="services_section__title">
+					Website design
+				</h4>
+				<p class="paragraph">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed ipsum pulvinar, consequat ipsum non, sodales augue. Donec dapibus ipsum rutrum congue egestas. Curabitur fringilla tortor non aliquam congue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+				</p>
+			</div>
+
+			<div class="services_section__item">
+				<div class="services_section_icon">
+					<i class="fa fa-bar-chart" aria-hidden="true"></i>
+				</div>				
+				<h4 class="services_section__title">
+					Seo &amp; analitycs
+				</h4>
+				<p class="paragraph">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed ipsum pulvinar, consequat ipsum non, sodales augue. Donec dapibus ipsum rutrum congue egestas. Curabitur fringilla tortor non aliquam congue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+				</p>
+			</div>
+
+			<div class="services_section__item">
+				<div class="services_section_icon">
+					<i class="fa fa-wordpress" aria-hidden="true"></i>
+				</div>			
+				<h4 class="services_section__title">
+					Wordpress Programming
+				</h4>
+				<p class="paragraph">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed ipsum pulvinar, consequat ipsum non, sodales augue. Donec dapibus ipsum rutrum congue egestas. Curabitur fringilla tortor non aliquam congue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+				</p>
+			</div>
+		</div>
+
+
+
+
+	</div>
+</section>
+		<!-- HISTORY SECTION
+================================================== -->
+<section id="history_section_ancor" class="history_section">
+	<div class="section__content container-fluid">
+			<h2 class="index_sections__title">
+				History
+		</h2>
+
+		<h3 class="index_sections__subtitle">
+			In pulvinar, mi at rhoncus condimentum, turpis nisl scelerisque turpis, ut gravida eros tortor non arcu. In eget arcu ante. Curabitur lacinia ultricies ante, eget mattis orci vestibulum sit amet. 
+		</h3>
+
+		<div class="row history_posts_wrapper">
+			<div class="history_scale"></div>
+			<div class="col-sm-12 for_history_row">
+
+				<div class="history_year">
+					<time datetime="2015">2015</time>
+				</div>
+
+				<div class="row">
+					
+					<div class="col-sm-6 history_post__item_wrapper">
+
+						<div class="history_post__item">
+							<h4 class="history_post__title">
+								Donec id lobortis tellus. Maecenas vel dignissim
+							</h4>
+							<p class="history_post_date">
+								<time datetime="2015-10-07">07 October 2015</time>
+							</p>
+							<p class="paragraph">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed ipsum pulvinar, consequat ipsum non, sodales augue. Donec dapibus ipsum rutrum congue egestas. Curabitur fringilla tortor non aliquam congue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+							</p>
+						</div>
+
+						<span class="history_post__decor"></span>
+					</div>
+
+					<div class="col-sm-6 history_post__item_wrapper">
+
+						<div class="history_post__item">
+							<h4 class="history_post__title">
+								Nam tincidunt, lacus sit amet ultrices 
+							</h4>
+							<p class="history_post_date">
+								<time datetime="2015-06-05">05 June 2015</time>
+							</p>
+							<p class="paragraph">
+								In pulvinar, mi at rhoncus condimentum, turpis nisl scelerisque turpis, ut gravida eros tortor non arcu. In eget arcu ante. Curabitur lacinia ultricies ante, eget mattis orci vestibulum sit amet. Donec quis faucibus lorem. 
+							</p>
+						</div>
+
+						<span class="history_post__decor"></span>
+					</div>	
+
+				</div>
+			</div>
+
+
+			<div class="col-sm-12 for_history_row">
+				<div class="row">
+
+					<div class="col-sm-6 history_post__item_wrapper">
+
+						<div class="history_post__item">
+							<h4 class="history_post__title">
+									Donec id lobortis tellus. Maecenas vel dignissim
+							</h4>
+							<p class="history_post_date">
+								<time datetime="2015-05-07">07 May 2015</time>
+							</p>
+							<p class="paragraph">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed ipsum pulvinar, consequat ipsum non, sodales augue. Donec dapibus ipsum rutrum congue egestas. Curabitur fringilla tortor non aliquam congue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+							</p>
+						</div>	
+						
+						<span class="history_post__decor"></span>
+					</div>		
+
+					<div class="col-sm-6 history_post__item_wrapper">
+						<div class="history_post__item">
+								<h4 class="history_post__title">
+									Donec id lobortis tellus. Maecenas vel dignissim
+								</h4>
+								<p class="history_post_date">
+									<time datetime="2015-04-02">02 April 2015</time>
+								</p>
+								<p class="paragraph">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed ipsum pulvinar, consequat ipsum non, sodales augue. Donec dapibus ipsum rutrum congue egestas. Curabitur fringilla tortor non aliquam congue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+								</p>
+
+								<p class="paragraph">
+									Praesent id augue in risus molestie euismod molestie id augue. Suspendisse a libero porttitor, lobortis eros ac, varius velit. Praesent sed eros at elit suscipit laoreet vitae condimentum risus.
+								</p>
+						</div>
+
+						<span class="history_post__decor"></span>
+					</div>
+
+				</div>
+			</div>	
+
+			<div class="col-sm-12 for_history_row">
+
+				<div class="history_year">
+					<time datetime="2014">2014</time>
+				</div>
+
+				<div class="row">
+				
+					<div class="col-sm-6 history_post__item_wrapper">
+						<div class="history_post__item">
+							<h4 class="history_post__title">
+								Donec id lobortis tellus. Maecenas vel dignissim
+							</h4>
+							<p class="history_post_date">
+								<time datetime="2014-10-07">07 October 2014</time>
+							</p>
+							<p class="paragraph">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed ipsum pulvinar, consequat ipsum non, sodales augue. Donec dapibus ipsum rutrum congue egestas. Curabitur fringilla tortor non aliquam congue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+							</p>
+						</div>
+
+						<span class="history_post__decor"></span>
+					</div>
+
+					<div class="col-sm-6 history_post__item_wrapper">
+						<div class="history_post__item">
+							<h4 class="history_post__title">
+								Nam tincidunt, lacus sit amet ultrices 
+							</h4>
+							<p class="history_post_date">
+								<time datetime="2014-06-05">05 June 2014</time>
+							</p>
+							<p class="paragraph">
+								In pulvinar, mi at rhoncus condimentum, turpis nisl scelerisque turpis, ut gravida eros tortor non arcu. In eget arcu ante. Curabitur lacinia ultricies ante, eget mattis orci vestibulum sit amet. Donec quis faucibus lorem. 
+							</p>
+						</div>
+
+						<span class="history_post__decor"></span>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="history_year_last">
+			<i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+		</div>
+
+	</div>
+</section>
+		<!-- OUR TEAM SECTION
+================================================== -->
+<section id="our_team_section_ancor" class="our_team_section">
+		<div class="section__content container-fluid">
+			<h2 class="index_sections__title">
+				Our team
+		</h2>
+
+		<h3 class="index_sections__subtitle">
+			Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.
+		</h3>
+
+		<figure class="our_team__images">
+			<div class="our_team_member_image">
+				<img src="images/img/team_member-1.jpg" alt="team member photo">
+				<div class="our_team_member_visit_card">
+					<div class="team_member_personal_info">
+						<p class="team_member_name">
+							John Smith
+						</p>
+						<p class="team_member_position">
+							Designer
+						</p>
+						<p class="devider"></p>
+						<ul class="social_network_info">
+							<li class="social_networks_info__item">
+								<a href="#">
+									<i class="fa fa-facebook-official" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li class="social_networks_info__item">
+								<a href="#">
+									<i class="fa fa-twitter" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li class="social_networks_info__item">
+								<a href="#">
+									<i class="fa fa-behance" aria-hidden="true"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="our_team_member_image">
+				<img src="images/img/team_member-2.jpg" alt="team member photo">
+				<div class="our_team_member_visit_card">
+					<div class="team_member_personal_info">
+						<p class="team_member_name">
+							Sarah Connor
+						</p>
+						<p class="team_member_position">
+							Programmer
+						</p>
+						<p class="devider"></p>
+						<ul class="social_network_info">
+							<li class="social_networks_info__item">
+								<a href="#">
+									<i class="fa fa-facebook-official" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li class="social_networks_info__item">
+								<a href="#">
+									<i class="fa fa-twitter" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li class="social_networks_info__item">
+								<a href="#">
+									<i class="fa fa-behance" aria-hidden="true"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>				
+			</div>
+
+			<div class="our_team_member_image">
+				<img src="images/img/team_member-3.jpg" alt="team member photo">
+				<div class="our_team_member_visit_card">
+					<div class="team_member_personal_info">
+						<p class="team_member_name">
+							Sasha Grey 
+						</p>
+						<p class="team_member_position">
+							Designer
+						</p>
+						<p class="devider"></p>
+						<ul class="social_network_info">
+							<li class="social_networks_info__item">
+								<a href="#">
+									<i class="fa fa-facebook-official" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li class="social_networks_info__item">
+								<a href="#">
+									<i class="fa fa-twitter" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li class="social_networks_info__item">
+								<a href="#">
+									<i class="fa fa-behance" aria-hidden="true"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</figure>
+</div>
+</section>
+		<!-- PORTFOLIO SECTION
+================================================== -->
+<section id="portfolio_section_ancor" class="portfolio_section">
+	<div class="section__content container-fluid">
+		<h2 class="index_sections__title">
+				Portfolio
+		</h2>
+
+		<h3 class="index_sections__subtitle">
+			Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.
+		</h3>
+
+		<div class="portfolio_section__btn_group_wrapper">
+			<a href="#" class="portfolio_section__btn">
+				All
+			</a>
+			<a href="#" class="portfolio_section__btn">
+				Website
+			</a>
+			<a href="#" class="portfolio_section__btn">
+				Brochures
+			</a>
+			<a href="#" class="portfolio_section__btn">
+				Logos
+			</a>
+		</div>
+	</div>
+
+
+<div id="portfolio_gallery_container" clearfix">
+	
+		<div class="portfolio__image-sizer"></div>
+		<div class="portfolio__image">
+			<img src="images/img/portfolio_work_image-1.jpg" alt="portfolio_work_image-1">
+		</div>
+
+		<div class="portfolio__image">
+				<img src="images/img/portfolio_work_image-2.jpg" alt="portfolio_work_image-2">
+		</div>
+	
+	
+		<div class="portfolio__image">
+			<img src="images/img/portfolio_work_image-3.jpg" alt="portfolio_work_image-3">
+		</div>
+
+		<div class="portfolio__image">
+			<img src="images/img/portfolio_work_image-4.jpg" alt="portfolio_work_image-4">
+		</div>
+	
+
+	
+		<div class="portfolio__image">
+			<img src="images/img/portfolio_work_image-5.jpg" alt="portfolio_work_image-5">
+		</div>
+
+		<div class="portfolio__image">
+			<img src="images/img/portfolio_work_image-6.jpg" alt="portfolio_work_image-6">
+		</div>
+	
+
+	
+		<div class="portfolio__image">
+			<img src="images/img/portfolio_work_image-7.jpg" alt="portfolio_work_image-7">
+		</div>
+
+		<div class="portfolio__image">
+			<img src="images/img/portfolio_work_image-8.jpg" alt="portfolio_work_image-8">
+		</div>
+	
+	</div>
+</section>
+		<!-- PRICES SECTION
+================================================== -->
+<section id="prices_section_ancor" class="prices_section">
+	<div class="section__content container-fluid">
+		<h2 class="index_sections__title">
+				Prices
+		</h2>
+
+		<h3 class="index_sections__subtitle">
+			Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.
+		</h3>
+
+		<div class="row prices_wrapper">
+			<div class="col-sm-4 price__item">
+				<div class="row">
+					<div class="col-sm-6 col-sm-offset-3">
+						<h4 class="price__title">Basic</h4>
+						<div class="price__icon">
+							<i class="fa fa-lock" aria-hidden="true"></i>
+						</div>
+						<div class="price__value">
+							<span>10</span>
+						</div>
+						<p class="paragraph">Full Access</p>
+						<p class="paragraph">Unlimited Edition</p>
+						<p class="paragraph">Full Backup</p>
+						<p class="paragraph">Free Tea and Free Mockup</p>
+						<p class="paragraph">Several Prices</p>
+						<div class="price__btn_wrap">
+							<a href="#" class="price__btn">Sign up</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-sm-4 price__item">
+				<div class="row">
+					<div class="col-sm-6 col-sm-offset-3">
+						<h4 class="price__title">Advanced</h4>
+						<div class="price__icon">
+							<i class="fa fa-bullhorn" aria-hidden="true"></i>
+						</div>
+						<div class="price__value">
+							<span>20</span>
+						</div>
+						<p class="paragraph">Full Access</p>
+						<p class="paragraph">Unlimited Edition</p>
+						<p class="paragraph">Full Backup</p>
+						<p class="paragraph">Free Tea and Free Mockup</p>
+						<p class="paragraph">Several Prices</p>
+						<div class="price__btn_wrap">
+							<a href="#" class="price__btn">Sign up</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4 price__item">
+				<div class="row">
+					<div class="col-sm-6 col-sm-offset-3">
+						<h4 class="price__title">Pro</h4>
+						<div class="price__icon">
+							<i class="fa fa-check-circle-o" aria-hidden="true"></i>
+						</div>
+						<div class="price__value">
+							<span>30</span>
+						</div>
+						<p class="paragraph">Full Access</p>
+						<p class="paragraph">Unlimited Edition</p>
+						<p class="paragraph">Full Backup</p>
+						<p class="paragraph">Free Tea and Free Mockup</p>
+						<p class="paragraph">Several Prices</p>
+						<div class="price__btn_wrap">
+							<a href="#" class="price__btn">Sign up</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+	</div>
+</section>
+		<!-- PURCHASE SECTION
+================================================== -->
+<section class="purchase_section">
+	<div class="section__content container-fluid">
+
+		<div class="purchase__logo">
+			<img src="images/img/compass-logo.png" alt="compass-logo">
+		</div>
+		<div class="purchase__content">
+			<h3 class="purchase__title">
+				Looking for a quality and affordable for your next project ?
+			</h3>
+			<p class="paragraph">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu libero ut erat sodales finibus sed in dolor. 
+				Etiam iaculis, nibh a lobortis egestas, est urna sodales
+			</p>
+		</div>
+		<div class="btn_wrapper">
+			<a href="#" class="purchase__btn">Purchase</a>
+		</div>
+		
+	</div>
+</section>
+		<!-- BLOG SECTION
+================================================== -->
+<section id="blog_main_section_ancor" class="blog_main_section">
+	<div class="section__content container-fluid">
+		<h2 class="index_sections__title">
+				Blog
+		</h2>
+
+		<h3 class="index_sections__subtitle">
+			Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.
+		</h3>
+	</div>
+
+	<div class="row blog_main__wrapper">
+		<div class="col-lg-6 blog_col"> 
+			<div class="row blog_main__item">
+				<div class="col-xs-6 col-sm-6 blog_main__item_img">
+					<img src="images/img/blog_main_img-1.jpg" alt="blog_main_img-1">
+				</div>
+				<div class="col-xs-6 col-sm-6 blog_main__item_content">
+					<p class="blog_date">
+						<time datetime="2015-08-14">14 Aug 2015</time> / By Admin
+					</p>
+					<h4 class="blog_title">
+						<a href="#">
+							Donec id lobortis tellus Maecenas.
+						</a>
+					</h4>
+					<p class="paragraph">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed ipsum pulvinar, consequat ipsum non, sodales augue. Donec dapibus ipsum rutrum congue egestas. Curabitur fringilla tortor non aliquam congue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur fringilla tortor non aliquam congue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+					</p>
+				</div>
+			</div>
+
+			<div class="row blog_main__item">
+				<div class="col-xs-6 col-sm-6 blog_main__item_img">
+					<img src="images/img/blog_main_img-2.jpg" alt="blog_main_img-2">
+				</div>
+				<div class="col-xs-6 col-sm-6 blog_main__item_content">
+					<p class="blog_date">
+						<time datetime="2015-08-14">14 Aug 2015</time> / By Admin
+					</p>
+					<h4 class="blog_title">
+						<a href="#">
+							Donec id lobortis tellus Maecenas.
+						</a>
+					</h4>
+					<p class="paragraph">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed ipsum pulvinar, consequat ipsum non, sodales augue. Donec dapibus ipsum rutrum congue egestas. Curabitur fringilla tortor non aliquam congue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur fringilla tortor non aliquam congue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-lg-6 blog_col"> 
+			<div class="row blog_main__item">
+				<div class="col-xs-6 col-sm-6 blog_main__item_img">
+					<img src="images/img/blog_main_img-3.jpg" alt="blog_main_img-3">
+				</div>
+				<div class="col-xs-6 col-sm-6 blog_main__item_content">
+					<p class="blog_date">
+						<time datetime="2015-08-14">14 Aug 2015</time> / By Admin
+					</p>
+					<h4 class="blog_title">
+						<a href="#">
+							Donec id lobortis tellus Maecenas.
+						</a>
+					</h4>
+					<p class="paragraph">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed ipsum pulvinar, consequat ipsum non, sodales augue. Donec dapibus ipsum rutrum congue egestas. Curabitur fringilla tortor non aliquam congue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur fringilla tortor non aliquam congue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+					</p>
+				</div>
+			</div>
+
+			<div class="row blog_main__item">
+				<div class="col-xs-6 col-sm-6 blog_main__item_img">
+					<img src="images/img/blog_main_img-4.jpg" alt="blog_main_img-4">
+				</div>
+				<div class="col-xs-6 col-sm-6 blog_main__item_content">
+					<p class="blog_date">
+						<time datetime="2015-08-14">14 Aug 2015</time> / By Admin
+					</p>
+					<h4 class="blog_title">
+						<a href="#">
+							Donec id lobortis tellus Maecenas.
+						</a>
+					</h4>
+					<p class="paragraph">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed ipsum pulvinar, consequat ipsum non, sodales augue. Donec dapibus ipsum rutrum congue egestas. Curabitur fringilla tortor non aliquam congue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur fringilla tortor non aliquam congue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+					</p>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</section>
+		<section class="map_section">
+	<div id="map-conteainer">
+		<div id="map"></div>
+	</div>
+   <script>
+      function initMap() {
+        var atlantidaStudio = {lat: 40.686052, lng: -73.916021};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 13,
+          center: atlantidaStudio,
+          scrollwheel: false,
+          styles: [{"featureType":"water","elementType":"geometry","stylers":[{"color":"#e9e9e9"},{"lightness":17}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":20}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffffff"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#ffffff"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":16}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":21}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#dedede"},{"lightness":21}]},{"elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#ffffff"},{"lightness":16}]},{"elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#333333"},{"lightness":40}]},{"elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#f2f2f2"},{"lightness":19}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#fefefe"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#fefefe"},{"lightness":17},{"weight":1.2}]}] 
+        });
+        var marker = new google.maps.Marker({
+          position: atlantidaStudio,
+          map: map,
+          icon: { 
+          				url: "images/icons/maps-icon.png",
+          				scaledSize: new google.maps.Size(64, 64)
+        				}
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAfbawFdxFCv2AmiHnujJqQIzo9P-fo5K4&callback=initMap">
+    </script>
+</section>
+
+
+	</main>
+
 	<footer class="footer">
-	<div class="container-fluid">
-		<a href="#" class="footer__logo_wrapper">
+	<div class="section__content container-fluid">
+		<a href="index.html" class="footer__logo_wrapper">
 			<div class="footer__logo">
-				<img src="images/pict/icon-logo.png" alt="logo image">
+				<img src="images/icons/icon-logo.png" alt="logo image">
 			</div>
 			<span class="footer__logo_title">Atlantida</span>
 		</a>
@@ -630,21 +886,21 @@
 					<a href="tel:+84 956 654 972">+84 956 654 972</a>
 				</h4>
 
-				<ul class="footer__social_networks_menu">
-					<li class="footer__social_networks_item">
-						<a href="#" class="footer__social_network_link">
+				<ul class="social_networks_info">
+					<li class="social_networks_info__item">
+						<a href="#">
 							 <i class="fa fa-facebook-official" aria-hidden="true"></i>
 						</a>
 					</li>
 
-					<li class="footer__social_networks_item">
-						<a href="#" class="footer__social_network_link">
+					<li class="social_networks_info__item">
+						<a href="#">
 							  <i class="fa fa-twitter" aria-hidden="true"></i>
 						</a>
 					</li>
 					
-					<li class="footer__social_networks_item">
-						<a href="#" class="footer__social_network_link">
+					<li class="social_networks_info__item">
+						<a href="#">
 							 <i class="fa fa-behance" aria-hidden="true"></i>
 						</a>
 					</li>
@@ -694,14 +950,20 @@
 	</div>
 </footer>
 
-</div>
+
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.js"></script>
+  <script src="js/bootstrap.js"></script>
 	<script src="js/slick.js"></script>
+	<script src="js/carousel.js"></script>
 	<script src="js/tendina.js"></script>
+	<script src="js/imagesloaded.pkgd.js"></script>
+	<script src="js/masonry.pkgd.min.js"></script>
 	<script src="js/common.js"></script>
+	<!--  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAfbawFdxFCv2AmiHnujJqQIzo9P-fo5K4&callback=initMap">
+    </script> -->
 	
 	</body>
 </html>

@@ -1,0 +1,131 @@
+// PRICES SECTION
+.prices_section {
+	padding: 4% 0;
+	color: #3e3d3d;
+}
+
+.price__item {
+	background-color: #fff;
+	padding: 25px 0;
+	margin-bottom: 5px;
+
+	@media screen and (min-width: 768px) {
+		width: 32%;
+		
+		&:nth-of-type(2) {
+			margin: 0 2%;
+		}	
+	}
+}
+
+.price__item > .row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.price__title {
+	margin-bottom: 0 0 20px;
+	font-size: 13px;
+	font-family: 'Montserrat', "Helvetica Neue", sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.price__icon {
+	width: 50px;
+	height: 50px;
+	border: 2px solid #3e3d3d;
+	border-radius: 50%;
+	margin: 20px auto;
+	background-color: #fff;
+	line-height: 48px;
+	font-size: 24px;
+	position: relative;
+	text-align: center;
+	z-index: 2;
+
+	&::before {
+		content: "";
+		position: absolute;
+		width: 200%;
+		height: 1px;
+		background-color: #3e3d3d;
+		top: 50%;
+		left: -200%;
+		transform: translate(-0, -50%);
+		z-index: 0;
+	}
+
+	&::after {
+		content: "";
+		position: absolute;
+		width: 200%;
+		height: 1px;
+		background-color: #3e3d3d;
+		top: 50%;
+		left: 100%;
+		transform: translate(-0, -50%);
+		z-index: 0;
+	}
+}
+
+.price__value {
+	text-align: center;
+	font-family: 'Montserrat', "Helvetica Neue", sans-serif;
+	margin-bottom: 30px;
+
+	span {
+		display: inline-block;
+		font-size: 70px;
+		line-height: 1;
+		font-weight: 700;
+		position: relative;
+
+		&::after {
+			content: "\0024";
+			position: absolute;
+			font-size: 28px;
+			left: -30%;
+			top: -5%;
+		}
+	}
+}
+
+.prices_section {
+	.paragraph {
+		margin-bottom: 10px;
+		font-size: 16px;
+		font-style: italic;
+		text-align: center;
+	}
+}
+
+.price__btn_wrap {
+	text-align: center;
+}
+
+.price__btn {
+	display: inline-block;
+	width: 50%;
+	margin: 20px 0;
+	border: 2px solid #3e3d3d;
+	background-color: #fff;
+	padding: 8px 35px;
+	color: #3e3d3d;
+	font-family: 'Montserrat', "Helvetica Neue", sans-serif;
+	font-size: 13px;
+
+	&:focus {
+		color: #3e3d3d;
+	}
+
+	&:hover {
+		background-color: #3e3d3d;
+		color: #fff;
+		text-decoration: none;
+	}
+
+	@media screen and (min-width: 768px) {
+		width: auto;
+	}
+}

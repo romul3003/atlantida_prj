@@ -1415,7 +1415,9 @@ a.blog__pagination_item:hover {
 
 .jcarousel-prev:hover,
 .jcarousel-next:hover {
-  color: blue;
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
 }
 
 .jcarousel-prev {
